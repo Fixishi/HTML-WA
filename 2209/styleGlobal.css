@@ -1,6 +1,27 @@
 address {
     background-color: blueviolet;
-    font-size: 125%;
     font-style: normal;
+}
+
+strong {
+    font-size: 125%;
+}
+
+main {
+    font-style: italic;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+#GFG {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+ol {
+    list-style: upper-roman;
 }
 

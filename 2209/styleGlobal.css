@@ -1,27 +1,33 @@
-address {
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+  address {
     background-color: blueviolet;
     font-style: normal;
 }
 
-strong {
+    strong {
     font-size: 125%;
 }
 
-main {
+    main {
     font-style: italic;
 }
 
-h1,h2 {
+    h1,h2 {
     text-align: center;
 }
 
-#GFG {
+    #GFG {
     text-decoration: none;
 }
-ul {
+    ul {
     list-style: none;
 }
-ol {
+    ol {
     list-style: upper-roman;
 }
+
+
 

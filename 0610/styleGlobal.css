@@ -32,3 +32,10 @@
 .grid5{
     grid-area: footer;
 }
+.theme {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}

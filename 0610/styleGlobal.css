@@ -1,0 +1,34 @@
+.grid-container {
+    display: grid;
+    background-color: crimson;
+    grid-template-areas:
+    'menu header header'
+    'menu main right '
+    'footer footer right';
+    padding: 7px;
+    gap: 5px;
+    
+}
+.grid-container > div {
+    background-color: blueviolet;
+    text-align: center;
+    font-style: initial;
+    font-size: medium;
+    padding: 50px;
+}
+
+.grid1 {
+    grid-area: menu;
+}
+.grid2{
+    grid-area: header;
+}
+.grid3 {
+    grid-area: main;
+}
+.grid4 {
+    grid-area: right;
+}
+.grid5{
+    grid-area: footer;
+}
